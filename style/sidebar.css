@@ -1,9 +1,35 @@
 .sidebar{
+    width: 60px;
+   
     position: fixed;
-    background-color: lightgreen;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    top: 60px;
-    width: 80px;
+    top: 55px;
+    z-index: 200px;
+    left: 10px;
+  
+}
+.sidelink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+
+      
+}
+.sidelink:hover{
+    background-color: rgb(223, 216, 216);
+    cursor: pointer;
+}
+.sidelink img{
+  margin-top: 20px;
+    height: 40px;
+  
+}
+
+.sidelink .info{
+ margin-bottom: 10px;
+font-size: 10px;
+
+
+
 }
